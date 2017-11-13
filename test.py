@@ -17,9 +17,7 @@ cursor.execute(insert_query, user)
 ## add multiple users
 users = [
     (2, 'joe', 'efgh'),
-    (3, 'sam', 'ijkl'),
-    (4, 'neha', 'mnop'),
-    (5, 'joshi', 'qrst')
+    (3, 'sam', 'ijkl')
 ]
 
 cursor.executemany(insert_query, users)
